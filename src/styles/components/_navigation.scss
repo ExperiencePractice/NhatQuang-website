@@ -1,6 +1,13 @@
 .navigation {
-    margin: 26px 0;
-    display: flex;
+    //margin: 26px 0;
+    display: grid;
+    width: 264px;
+    min-height: 900px;
+    height: 100%;
+
+    border-radius: 10px;
+    
+    position: relative;
 
     a {
         margin: 10px;

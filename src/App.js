@@ -1,15 +1,21 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from './pages/Home';
+import Profile from './pages/Profile';
 import NotFound from './pages/NotFound';
-import About from './pages/About';
+import Contact from './pages/Contact';
+import Competences from './pages/Competences';
+import Experiences from './pages/Experiences';
+import Hobbies from './pages/Hobbies';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/NhatQuang-website/' exact element={<Home/>}/>
-        <Route path='/NhatQuang-website/About' exact element={<About/>} />
+        <Route path='/NhatQuang-website/' exact element={<Profile/>}/>
+        <Route path='/NhatQuang-website/competences' exact element={<Competences/>} />
+        <Route path='/NhatQuang-website/experiences' exact element={<Experiences/>} />
+        <Route path='/NhatQuang-website/hobbies' exact element={<Hobbies/>} />
+        <Route path='/NhatQuang-website/contact' exact element={<Contact/>} />
         <Route path='*' element={<NotFound/>} />
       </Routes>
     </BrowserRouter>
