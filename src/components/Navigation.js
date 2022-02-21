@@ -4,38 +4,39 @@ import { NavLink } from "react-router-dom";
 const Navigation = () => {
     return (
         <div className="navigation">
+            <br/>
             <ul>
-                <li>
+                <li>⚈
                     <NavLink to="/NhatQuang-website/">
-                        Profile
+                        PROFIL
                     </NavLink>
                 </li>
             </ul>
             <ul>
-                <li>
+                <li>⚈
                     <NavLink to="/NhatQuang-website/competences">
-                        Competences
+                        COMPÉTENCE
                     </NavLink>
                 </li>
             </ul>
             <ul>
-                <li>
+                <li>⚈
                     <NavLink to="/NhatQuang-website/experiences">
-                        Experiences
+                        EXPÉRIENCES
                     </NavLink>
                 </li>
             </ul>
             <ul>
-                <li>
+                <li>⚈
                     <NavLink to="/NhatQuang-website/hobbies">
-                        Hobbies
+                        CENTRE D'INTÊRETS
                     </NavLink>
                 </li>
             </ul>
             <ul>
-                <li>
+                <li>⚈
                     <NavLink to="/NhatQuang-website/contact">
-                        Contact
+                        CONTACT
                     </NavLink>
                 </li>
             </ul>
