@@ -7,7 +7,7 @@ const Navigation = () => {
             <br/>
             <ul>
                 <li>
-                    <NavLink to="/NhatQuang-website/">
+                    <NavLink to="/NhatQuang-website/profil">
                         <button>PROFIL</button>
                     </NavLink>
                 </li>
