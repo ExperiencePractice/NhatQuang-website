@@ -24,6 +24,7 @@
         max-width: 150px;
         background-color: #3d5aaf;
         border-radius: 40%;
+        color: white;
     }
 
 
@@ -35,6 +36,7 @@
     .active {
         button {
             background-color: white;
+            color: black;
         }
     }
 }

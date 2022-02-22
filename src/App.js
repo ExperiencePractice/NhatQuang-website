@@ -6,12 +6,14 @@ import Contact from './pages/Contact';
 import SkillsEdu from './pages/Skills_Edu';
 import Experiences from './pages/Experiences';
 import Hobbies from './pages/Hobbies';
+import Home from "./pages/Home";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/NhatQuang-website/' exact element={<Profile/>}/>
+        <Route path='/NhatQuang-website/' exact element={<Home/>}/>
+        <Route path='/NhatQuang-website/profil' exact element={<Profile/>}/>
         <Route path='/NhatQuang-website/skills_edu' exact element={<SkillsEdu/>} />
         <Route path='/NhatQuang-website/experiences' exact element={<Experiences/>} />
         <Route path='/NhatQuang-website/hobbies' exact element={<Hobbies/>} />
