@@ -6,37 +6,37 @@ const Navigation = () => {
         <div className="navigation">
             <br/>
             <ul>
-                <li>⚈
+                <li>
                     <NavLink to="/NhatQuang-website/">
-                        PROFIL
+                        <button>PROFIL</button>
                     </NavLink>
                 </li>
             </ul>
             <ul>
-                <li>⚈
-                    <NavLink to="/NhatQuang-website/competences">
-                        COMPÉTENCE
+                <li>
+                    <NavLink to="/NhatQuang-website/skills_edu">
+                        <button>COMPÉTENCES & FORMATION</button>
                     </NavLink>
                 </li>
             </ul>
             <ul>
-                <li>⚈
+                <li>
                     <NavLink to="/NhatQuang-website/experiences">
-                        EXPÉRIENCES
+                        <button>EXPÉRIENCES</button>
                     </NavLink>
                 </li>
             </ul>
             <ul>
-                <li>⚈
+                <li>
                     <NavLink to="/NhatQuang-website/hobbies">
-                        CENTRE D'INTÊRETS
+                        <button>CENTRE D'INTÊRETS</button>
                     </NavLink>
                 </li>
             </ul>
             <ul>
-                <li>⚈
+                <li>
                     <NavLink to="/NhatQuang-website/contact">
-                        CONTACT
+                        <button>CONTACT</button>
                     </NavLink>
                 </li>
             </ul>

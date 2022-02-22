@@ -1,0 +1,51 @@
+.skills_edu {
+
+    .Skills_EduContent{
+        border-radius: 10px;
+        width: 100%;
+        position: relative;
+        min-height: 900px;
+        height: 100%;
+        overflow: hidden;
+        background: #243465;
+        border: 0.5rem solid #16203d;
+        display: grid;
+        
+
+        grid-template-areas:
+            "T T T"
+            "S S S"
+            "E E L"
+            "E E L";
+        grid-template-columns: 60% 10% 30%;
+        grid-template-rows: 20% 40% 20% 20%;
+
+
+        p {
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+        h2 {
+            padding-left: 10px;
+        }
+
+        .skills{
+            border: 0.5rem solid #16203d;
+            grid-area: S;
+            margin: 2px;
+        }
+
+        .education {
+            border: 0.5rem solid #16203d;
+            grid-area: E;
+            margin: 2px;
+        }
+
+        .languages {
+            border: 0.5rem solid #16203d;
+            grid-area: L;
+            margin: 2px;
+        }
+    }
+    
+}

@@ -6,7 +6,9 @@
     height: 100%;
     background: #243465;
     border: 0.5rem solid #16203d;
-    border-radius: 10px;    
+    border-radius: 10px;
+    margin-right: 1px;
+    text-align: center;
     
     position: relative;
 
@@ -15,25 +17,24 @@
         padding: 10px;
         position: relative;
         color: white;
-        animation: 3s ease-in 1s infinite reverse both running slidein;
     }
 
-    li:hover {
-        transform: translate(10px);
-        animation: 3s ease-in 1s infinite reverse both running slidein;
+    button {
+        padding: 10px;
+        max-width: 150px;
+        background-color: #3d5aaf;
+        border-radius: 40%;
+    }
+
+
+    button:hover {
+        background-color: rgb(69, 75, 129); 
+        -webkit-transition: transform 0.3s ease-in-out;
     }
 
     .active {
-        &::after {
-            content: "";
-            width: 85%;
-            height: 5px;
-            background: white;
-            position: absolute;
-            bottom: 1px;
-            left: 50%;
-            transform: translateX(-50%);
-            animation: 3s ease-in 1s 2 reverse both paused slidein;
+        button {
+            background-color: white;
         }
     }
 }
