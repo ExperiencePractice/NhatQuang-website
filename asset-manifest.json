@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/NhatQuang-website/static/css/main.2635df5d.css",
-    "main.js": "/NhatQuang-website/static/js/main.c4bc7118.js",
+    "main.css": "/NhatQuang-website/static/css/main.c7e2a705.css",
+    "main.js": "/NhatQuang-website/static/js/main.57e9d78d.js",
     "static/media/photoprofile.png": "/NhatQuang-website/static/media/photoprofile.8979884ba81d632b3312.png",
     "index.html": "/NhatQuang-website/index.html",
-    "main.2635df5d.css.map": "/NhatQuang-website/static/css/main.2635df5d.css.map",
-    "main.c4bc7118.js.map": "/NhatQuang-website/static/js/main.c4bc7118.js.map"
+    "main.c7e2a705.css.map": "/NhatQuang-website/static/css/main.c7e2a705.css.map",
+    "main.57e9d78d.js.map": "/NhatQuang-website/static/js/main.57e9d78d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2635df5d.css",
-    "static/js/main.c4bc7118.js"
+    "static/css/main.c7e2a705.css",
+    "static/js/main.57e9d78d.js"
   ]
 }
