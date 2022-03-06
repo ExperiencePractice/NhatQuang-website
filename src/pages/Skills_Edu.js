@@ -9,7 +9,7 @@ const Competences = () => {
         <div className='skills_edu'>
             <Navigation />            
             <div className="Skills_EduContent">
-                <center><h1>Compétences & Formation</h1></center>
+                <h1>Compétences & Formation</h1>
                 <Skills/>
                 <Education/>
                 <Languages/>

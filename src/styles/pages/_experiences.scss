@@ -9,6 +9,68 @@
         overflow: hidden;
         background: #243465;
         border: 0.5rem solid #16203d;
+        text-align: center;
+        display: grid;
+    }
+
+    .expContent {
+        border: 0.5rem solid #16203d;
+        margin: 2px;
+        text-align: left;
+    }
+    .expContent:hover {
+        border: 0.5rem solid #6f8eeb;
+    }
+    p {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    h2, h3, h4, h5 {
+        padding-left: 10px;
+    }
+    .showInfos{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.507);
+        animation: popup .3s ease forwards ;
+        transform-origin: center;
+    }
+    .infosContent {
+        position: relative;
+        top: 15%;
+        width: 700px;
+        margin: 0 auto;
+        color: white;
+        background: #243465;
+        border-radius: 10px;
+        padding: 2rem;
+        box-shadow: 0 10px 10px #333;
+        animation: popup .6s ease forwards;
+        transform: scale(0);
+        transform-origin: center;
+
+        @keyframes popup {
+          to {
+            transform: scale(1);
+          } 
+        }
+
+        button {
+            border-radius: 50%;
+            padding: 7px 12px;
+            transform: translate(48px,-48px);
+            float: right;
+            font-size: large;
+        }
+        button:hover {
+            background-color: rgb(124, 124, 124);
+        }
+        a {
+            color: rgb(56, 240, 253);
+        }
     }
     
 }
