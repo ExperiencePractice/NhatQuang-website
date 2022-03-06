@@ -10,14 +10,14 @@
         background: #243465;
         border: 0.5rem solid #16203d;
         display: grid;
-        
+        text-align: center;
 
         grid-template-areas:
             "T T T"
             "S S S"
             "E E L"
             "E E L";
-        grid-template-columns: 60% 10% 30%;
+        grid-template-columns: 69% 1% 30%;
         grid-template-rows: 20% 40% 20% 20%;
 
 
@@ -29,22 +29,28 @@
             padding-left: 10px;
         }
 
+        h1 {
+            grid-area: T;
+        }
         .skills{
             border: 0.5rem solid #16203d;
             grid-area: S;
             margin: 2px;
+            text-align: left;
         }
 
         .education {
             border: 0.5rem solid #16203d;
             grid-area: E;
             margin: 2px;
+            text-align: left;
         }
 
         .languages {
             border: 0.5rem solid #16203d;
             grid-area: L;
             margin: 2px;
+            text-align: left;
         }
     }
     
