@@ -10,7 +10,7 @@ const Exp7 = () => {
         <div className='expContent' onClick={handlePopup}>
 
             <h3>Février - Mars 2022:</h3>
-            <h4>Projet personnel - Mon CV</h4>
+            <h4>Projet personnel - Mon CV en ligne</h4>
             
 
             {
@@ -18,7 +18,7 @@ const Exp7 = () => {
                     <div className='showInfos'>
                         <div className='infosContent'>
                             <button onClick={handlePopup}>X</button>
-                            <h2>Projet personnel - Mon CV</h2>
+                            <h2>Projet personnel - Mon CV en ligne</h2>
                             <h5>(Février - Mars 2022)</h5>
 
                             <p className='text'>
