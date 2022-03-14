@@ -18,7 +18,13 @@ const Home = () => {
                 <p>
                 Jeune diplômé, passionné par l’Informatique. Dynamique, l’esprit équipe, autonome. <br/>
                 Je suis à la recherche d’une opportunité dans le développement web<br/>
-                (Full Stack)<br/>
+                (Full Stack)<br/><br/><br/>
+                    <h3>
+                        * DÉVELOPPEMENT WEB (FULL STACK)<br/>
+                        * FORTE CAPACITÉ D’ADAPTATION<br/>
+                        * CAPACITÉ À EFFECTUER DES ACTIVITÉS DE RECHERCHE<br/>
+                        * CURIEUX, ESPRIT D’ÉQUIPE, AUTONOME, POLYVALENT
+                    </h3>
                 </p>
             </div>
             
