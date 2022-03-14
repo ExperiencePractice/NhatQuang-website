@@ -21,6 +21,7 @@
         h1 {
             grid-area: T;
             text-align: center;
+            margin-top: 10px;
         }
 
         h2 {
@@ -36,11 +37,15 @@
             border: 0.5rem solid hsl(225, 47%, 16%);
             grid-area: S;
             margin: 2px;
+            border-radius: 10px;
+            background-color: #2e3b83;
         }
         .music {
             border: 0.5rem solid #16203d;
             grid-area: M;
             margin: 2px;
+            border-radius: 10px;
+            background-color: #2e3b83;
 
             a {
                 color: rgb(56, 240, 253);

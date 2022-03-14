@@ -11,7 +11,7 @@ const Education = () => {
                 Classes Prépa intégrées (Informatiques et Mathématiques Appliquées)<br/>
                 Polytech Grenoble, France<br/>
                 2016-2018<br/><br/>
-                Obtention du BAC Scientifique<br/>
+                Obtention du BAC Scientifique(Mathématiques)<br/>
                 Lycée Français International Marguerite Duras, Vietnam<br/>
                 2016<br/>
             </p>
