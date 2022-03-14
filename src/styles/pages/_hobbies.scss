@@ -9,6 +9,43 @@
         overflow: hidden;
         background: #243465;
         border: 0.5rem solid #16203d;
+        display: grid;
+
+        grid-template-areas:
+            "T T"
+            "S M"
+            "S M";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 15% 85% 85%;
+
+        h1 {
+            grid-area: T;
+            text-align: center;
+        }
+
+        h2 {
+            padding-left: 10px;
+        }
+        p {
+            padding-left: 20px;
+            padding-top: 10px;
+            line-height: 30px;
+        }
+
+        .sport {
+            border: 0.5rem solid hsl(225, 47%, 16%);
+            grid-area: S;
+            margin: 2px;
+        }
+        .music {
+            border: 0.5rem solid #16203d;
+            grid-area: M;
+            margin: 2px;
+
+            a {
+                color: rgb(56, 240, 253);
+            }
+        }
     }
     
 }

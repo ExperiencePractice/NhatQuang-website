@@ -7,7 +7,7 @@ const Contact = () => {
             <Navigation/>
             <div className="contactContent">
                 <h1>Contact</h1>
-                This is the profile page
+                This is the contact page
             </div>
         </div>
     );

@@ -23,7 +23,7 @@ const Exp6 = () => {
 
                             <p className='text'>
                                 <b>Descriptif:</b> Mini jeu (The Legend of Shellda) en java en utilisant la librairie Java Swing pour l’interface graphique<br/>
-                                <b>Code source:</b> <a href='http://gendered-news.imag.fr/' target='_blank' rel='noreferrer'>lien du site résultat</a>(le dépôt est toujours en privé)<br/>
+                                <b>Code source:</b> <a href='http://gendered-news.imag.fr/' target='_blank' rel='noreferrer'>lien du site(résultat)</a>(le dépôt est toujours en privé)<br/>
                                 <b>Équipes & méthodes:</b> Je travaillais principalement avec une doctorante et 2 chercheurs<br/>
                                 <b>Tâches:</b><br/>
                                 - Ajouter plus de données à collecter<br/>
@@ -36,7 +36,7 @@ const Exp6 = () => {
                                 - Rendre les pages + logos responsive<br/>
                                 - Compléter la documentation<br/>
                                 - Améliorer le TwitterBot<br/>
-                                - Intégrer Google Analyti<br/>
+                                - Intégrer Google Analytics<br/>
                                 <b>Outils & technologies:</b> Python / Jekyll / Gitlab / MongoDB / Metabase / Visual Studio Code
                             </p>
                         </div>
