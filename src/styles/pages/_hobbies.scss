@@ -13,10 +13,9 @@
 
         grid-template-areas:
             "T T"
-            "S M"
             "S M";
         grid-template-columns: 50% 50%;
-        grid-template-rows: 15% 85% 85%;
+        grid-template-rows: 15% 85%;
 
         h1 {
             grid-area: T;
