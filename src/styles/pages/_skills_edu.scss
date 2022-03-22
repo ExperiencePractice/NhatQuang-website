@@ -31,12 +31,15 @@
 
         h1 {
             grid-area: T;
+            margin-top: 10px;
         }
         .skills{
             border: 0.5rem solid #16203d;
             grid-area: S;
             margin: 2px;
             text-align: left;
+            border-radius: 10px;
+            background-color: #2e3b83;
         }
 
         .education {
@@ -44,6 +47,8 @@
             grid-area: E;
             margin: 2px;
             text-align: left;
+            border-radius: 10px;
+            background-color: #2e3b83;
         }
 
         .languages {
@@ -51,6 +56,8 @@
             grid-area: L;
             margin: 2px;
             text-align: left;
+            border-radius: 10px;
+            background-color: #2e3b83;
         }
     }
     

@@ -8,7 +8,48 @@
         height: 100%;
         overflow: hidden;
         background: #243465;
+        text-align: center;
         border: 0.5rem solid #16203d;
+
+
+        h1 {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .contactCard {
+            display: inline-table;
+            margin-top: 15%;
+            border: 0.5rem solid #5f5674;
+            max-width: fit-content;
+            padding: 30px;
+            border-radius: 20px;
+            background-color: rgb(40, 33, 105);
+
+            h3 {
+                padding-bottom: 10px;
+            }
+            h3 a {
+                color: white;
+            }
+            h3 a:hover {
+                text-decoration: underline;
+            }
+
+            ul {
+                
+                list-style: none;
+                padding: 10px;
+            }
+            ul li {
+                display: inline;
+                padding: 10px;
+            }
+            ul li img:hover {
+                background-color: #3be1ec;
+                border-radius: 50%;
+            }
+        }
     }
     
 }
