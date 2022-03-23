@@ -75,7 +75,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .navigation {
         img {
             display: block;
@@ -87,7 +87,7 @@
         }
         .active {
             img {
-                background-color: rgb(0, 133, 66);
+                background-color: rgb(0, 100, 50);
             }
         }
         button {
