@@ -51,5 +51,13 @@
             }
         }
     }
-    
+}
+@media only screen and (max-width: 900px) {
+    .contact {
+        .contactContent {
+            h1 {
+                font-size: 1.2em;
+            }
+        }
+    }
 }

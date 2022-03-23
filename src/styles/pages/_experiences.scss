@@ -77,5 +77,29 @@
             color: rgb(56, 240, 253);
         }
     }
-    
+}
+@media only screen and (max-width: 900px) {
+    .experiences {
+        .infosContent {
+            width: 600px;
+            top: 10%;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .experiences {
+        h1 {
+            font-size: 1.2em;
+        }
+        .infosContent {
+            width: 375px;
+            top: 4%;
+            font-size: smaller;
+            padding: 2px;
+
+            button {
+                transform: translate(0px,0px);
+            }
+        }
+    }
 }

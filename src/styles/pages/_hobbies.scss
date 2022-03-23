@@ -53,3 +53,20 @@
     }
     
 }
+
+@media only screen and (max-width: 900px) {
+    .hobbies {
+        .hobbiesContent {
+            grid-template-areas:
+            "T"
+            "S" 
+            "M";
+            
+            grid-template-columns: 100%;
+            grid-template-rows: 10% 45% 45%;
+            h1 {
+                font-size: 1.2em;
+            }
+        }
+    }
+}
