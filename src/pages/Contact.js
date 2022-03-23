@@ -1,9 +1,9 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
-import Github_1 from "../assets/images/github-1.png";
-import Github_2 from "../assets/images/github-3.png";
-import Linkedin from "../assets/images/linkedin.png";
-import Twitter from "../assets/images/twitter.png";
+import Github_1 from "../assets/logos/github-1.png";
+import Github_2 from "../assets/logos/github-3.png";
+import Linkedin from "../assets/logos/linkedin.png";
+import Twitter from "../assets/logos/twitter.png";
 
 
 const Contact = () => {

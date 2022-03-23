@@ -5,10 +5,10 @@ const Languages = () => {
         <div className='languages'>
             <h2>Langues</h2>
             <p>
-                - Français: Bilingue<br/><br/>
-                - Anglais: Linguaskill(B2)<br/><br/>
-                - Vietnamien: Langue maternelle<br/><br/>
-                - Chinois: Notion de base<br/><br/>
+                - Français: Bilingue<br/>
+                - Anglais: Linguaskill(B2)<br/>
+                - Vietnamien: Langue maternelle<br/>
+                - Chinois: Notion de base<br/>
             </p>
         </div>
     );
