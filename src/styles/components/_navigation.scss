@@ -1,15 +1,13 @@
 .navigation {
     width: 264px;
     min-height: 900px;
-    height: 100%;
+    height: 900px;
     background: #243465;
     border: 0.5rem solid #16203d;
     border-radius: 10px;
-    margin-right: 1px;
     text-align: center;
-    
+
     ul li {
-        line-height: 170px;
         text-align: center;
     }
 
@@ -19,9 +17,11 @@
     
     button {
         padding: 10px;
-        max-width: 150px;
+        //max-width: 150px;
+        width: 100%;
+        height: 177px;
         background-color: #3d5aaf;
-        border-radius: 40%;
+        border-radius: 10px;
         color: white;
         font-weight: bold;
     }
@@ -35,7 +35,7 @@
         button {
             background-color: white;
             color: black;
-            border: 0.5rem solid #16203d;
+            border: 0.2rem solid #16203d;
             //padding: 0;
         }
     }
@@ -75,7 +75,7 @@
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 705px) {
     .navigation {
         img {
             display: block;
