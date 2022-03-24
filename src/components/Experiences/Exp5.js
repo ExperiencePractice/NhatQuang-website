@@ -7,11 +7,12 @@ const Exp5 = () => {
         setShowPopup(!showPopup);
     }
     return (
-        <div className='expContent' onClick={handlePopup}>
+        <div className='expContent' >
 
-            <h3>Février - Mars 2021:</h3>
-            <h4>Projet en équipe - GenderedNews</h4>
-            
+            <div onClick={handlePopup}>
+                <h3>Février - Mars 2021:</h3>
+                <h4>Projet en équipe - GenderedNews</h4>
+            </div>
 
             {
                 showPopup && (
