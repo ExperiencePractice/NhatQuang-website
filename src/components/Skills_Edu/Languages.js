@@ -8,7 +8,7 @@ const Languages = () => {
                 - Français: Bilingue<br/>
                 - Anglais: Linguaskill(B2)<br/>
                 - Vietnamien: Langue maternelle<br/>
-                - Chinois: Notion de base<br/>
+                - Chinois: Notions de base<br/>
             </p>
         </div>
     );
